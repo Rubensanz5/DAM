@@ -1,0 +1,23 @@
+﻿<Window x:Class="PROYECTO_EV1_RSG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROYECTO_EV1_RSG"
+        mc:Ignorable="d"
+       		Title="Proyecto 1ª Evaluación" Height="750" Width="1125"
+		ResizeMode="NoResize"
+		WindowStartupLocation="CenterScreen"
+		Icon="/img/logo.jpg">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Jugar" Name="jugarmenu" Click="jugarmenu_Click" FontFamily="Arial" FontSize="18"/>
+            <MenuItem Header="Salir" Name="salirmenu" Click="salirmenu_Click" FontFamily="Arial" FontSize="18"/>
+        </Menu>
+
+        <Grid Background="#FFE139F3" >
+            <Image Source="/img/logo.jpg" Margin="236,57,204,57" RenderTransformOrigin="0.441,0.504" />
+        </Grid>
+    </DockPanel>
+
+</Window>

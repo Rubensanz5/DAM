@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>PROYECTO_EV1_RSG</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>integrity4x_87002 (1).ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\acierto.jpg" />
+    <None Remove="img\estrella.jpg" />
+    <None Remove="img\icono.jpg" />
+    <None Remove="img\leon.jpg" />
+    <None Remove="img\logo.jpg" />
+    <None Remove="img\puerta.jpg" />
+    <None Remove="img\vida.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\acierto.jpg" />
+    <Resource Include="img\estrella.jpg" />
+    <Resource Include="img\icono.jpg" />
+    <Resource Include="img\leon.jpg" />
+    <Resource Include="img\logo.jpg" />
+    <Resource Include="img\puerta.jpg" />
+    <Resource Include="img\vida.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dG+1ZjrgnMeUNso39ZDAYHOTTdxcI31wEN1VsXX4SVzy634wlQsW7HEuHCVRGAVqJV/3CwI8kiJtTBks8REJoA==",
+  "success": true,
+  "projectFilePath": "E:\\Proyectos\\VisualStudio\\PROYECTO-EV1-RSG\\PROYECTO-EV1-RSG.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ruben-PC\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.20\\microsoft.netcore.app.runtime.win-x64.3.1.20.nupkg.sha512",
+    "C:\\Users\\Ruben-PC\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.20\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.20.nupkg.sha512",
+    "C:\\Users\\Ruben-PC\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.20\\microsoft.aspnetcore.app.runtime.win-x64.3.1.20.nupkg.sha512"
+  ],
+  "logs": []
+}
