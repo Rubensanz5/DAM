@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.miniproyecto.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_transicionFragment"
+            app:destination="@id/transicionFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_pathFragment"
+            app:destination="@id/pathFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_dibujarFragment"
+            app:destination="@id/dibujarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.miniproyecto.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transicionFragment"
+        android:name="com.example.miniproyecto.TransicionFragment"
+        android:label="fragment_transicion"
+        tools:layout="@layout/fragment_transicion" />
+    <fragment
+        android:id="@+id/pathFragment"
+        android:name="com.example.miniproyecto.PathFragment"
+        android:label="fragment_path"
+        tools:layout="@layout/fragment_path" />
+    <fragment
+        android:id="@+id/dibujarFragment"
+        android:name="com.example.miniproyecto.DibujarFragment"
+        android:label="fragment_dibujar"
+        tools:layout="@layout/fragment_dibujar" />
+</navigation>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RubenSanz-6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="a_cerca_de">A Cerca De</string>
+    <string name="la_aplicacion_ha_sido_desarrollada_por_rub_n_sanz">La aplicacion ha sido desarrollada por Rubén Sanz</string>
+    <string name="se_trata_de_una_aplicacion_para_visulaizar_motos">Se trata de una aplicacion para visulaizar motos</string>
+    <string name="volver_al_inicio">Volver al Inicio</string>
+    <string name="motos_de_carretera">Motos de carretera</string>
+    <string name="motos_de_cross">Motos de cross</string>
+    <string name="seleccionar">Seleccionar</string>
+</resources>

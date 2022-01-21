@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.multimedia_rsg.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_sonidoFragment"
+            app:destination="@id/sonidoFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_sensorFragment"
+            app:destination="@id/sensorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sonidoFragment"
+        android:name="com.example.multimedia_rsg.sonidoFragment"
+        android:label="fragment_sonido"
+        tools:layout="@layout/fragment_sonido" />
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.multimedia_rsg.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/sensorFragment"
+        android:name="com.example.multimedia_rsg.SensorFragment"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+</navigation>

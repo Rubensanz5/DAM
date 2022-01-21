@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacion"
+    app:startDestination="@id/bienvenidaFragment">
+
+    <fragment
+        android:id="@+id/bienvenidaFragment"
+        android:name="com.example.rubensanz_6.BienvenidaFragment"
+        android:label="fragment_bienvenida"
+        tools:layout="@layout/fragment_bienvenida" >
+        <action
+            android:id="@+id/action_bienvenidaFragment_to_categoriasFragment"
+            app:destination="@id/categoriasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoriasFragment"
+        android:name="com.example.rubensanz_6.CategoriasFragment"
+        android:label="fragment_categorias"
+        tools:layout="@layout/fragment_categorias" >
+        <action
+            android:id="@+id/action_categoriasFragment_to_motoCarreteraFragment"
+            app:destination="@id/motoCarreteraFragment" />
+        <action
+            android:id="@+id/action_categoriasFragment_to_motoCampoFragment"
+            app:destination="@id/motoCampoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/motoCampoFragment"
+        android:name="com.example.rubensanz_6.MotoCampoFragment"
+        android:label="fragment_moto_campo"
+        tools:layout="@layout/fragment_moto_campo" >
+        <action
+            android:id="@+id/action_motoCampoFragment_to_TRRSFragment"
+            app:destination="@id/TRRSFragment" />
+        <action
+            android:id="@+id/action_motoCampoFragment_to_KTMFragment"
+            app:destination="@id/KTMFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/motoCarreteraFragment"
+        android:name="com.example.rubensanz_6.MotoCarreteraFragment"
+        android:label="fragment_moto_carretera"
+        tools:layout="@layout/fragment_moto_carretera" >
+        <action
+            android:id="@+id/action_motoCarreteraFragment_to_yamahaFragment"
+            app:destination="@id/yamahaFragment" />
+        <action
+            android:id="@+id/action_motoCarreteraFragment_to_indianFragment"
+            app:destination="@id/indianFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acercadeFragment"
+        android:name="com.example.rubensanz_6.AcercadeFragment"
+        android:label="fragment_acercade"
+        tools:layout="@layout/fragment_acercade" />
+    <fragment
+        android:id="@+id/yamahaFragment"
+        android:name="com.example.rubensanz_6.YamahaFragment"
+        android:label="fragment_yamaha"
+        tools:layout="@layout/fragment_yamaha" >
+        <action
+            android:id="@+id/action_yamahaFragment_to_categoriasFragment"
+            app:destination="@id/categoriasFragment"
+            app:popUpTo="@id/categoriasFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/indianFragment"
+        android:name="com.example.rubensanz_6.indianFragment"
+        android:label="fragment_indian"
+        tools:layout="@layout/fragment_indian" >
+        <action
+            android:id="@+id/action_indianFragment_to_categoriasFragment"
+            app:destination="@id/categoriasFragment"
+            app:popUpTo="@id/categoriasFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/TRRSFragment"
+        android:name="com.example.rubensanz_6.TRRSFragment"
+        android:label="fragment_t_r_r_s"
+        tools:layout="@layout/fragment_t_r_r_s" >
+        <action
+            android:id="@+id/action_TRRSFragment_to_categoriasFragment"
+            app:destination="@id/categoriasFragment"
+            app:popUpTo="@id/categoriasFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/KTMFragment"
+        android:name="com.example.rubensanz_6.KTMFragment"
+        android:label="fragment_k_t_m"
+        tools:layout="@layout/fragment_k_t_m" >
+        <action
+            android:id="@+id/action_KTMFragment_to_categoriasFragment"
+            app:destination="@id/categoriasFragment"
+            app:popUpTo="@id/categoriasFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

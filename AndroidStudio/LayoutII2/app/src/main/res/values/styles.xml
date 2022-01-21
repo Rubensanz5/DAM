@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="verde_blanco">
+        <item name="android:textSize">16dp</item>
+        <item name="android:fontFamily">@font/baloo</item>
+        <item name="android:background">@android:color/holo_green_light</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Negro_naranja">
+        <item name="android:textSize">10dp</item>
+        <item name="android:fontFamily">@font/press_start_2p</item>
+        <item name="android:backgroundTint">@android:color/holo_orange_dark</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:shadowColor">@android:color/darker_gray</item>
+        <item name="drawableLeftCompat">@drawable/halloween</item>
+        <item name="cornerRadius">25dp</item>
+    </style>
+</resources>

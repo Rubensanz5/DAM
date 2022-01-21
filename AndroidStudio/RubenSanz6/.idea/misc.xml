@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/activity_main.xml" value="0.192481884057971" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_acercade.xml" value="0.264" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_bienvenida.xml" value="0.264" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_categorias.xml" value="0.264" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_indian.xml" value="0.23777173913043478" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_k_t_m.xml" value="0.23777173913043478" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_moto_campo.xml" value="0.264" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_moto_carretera.xml" value="0.264" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_t_r_r_s.xml" value="0.23777173913043478" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/layout/fragment_yamaha.xml" value="0.264" />
+        <entry key="..\:/Proyectos/AndroidStudio/RubenSanz6/app/src/main/res/menu/menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

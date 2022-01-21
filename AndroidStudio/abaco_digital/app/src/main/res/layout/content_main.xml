@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:padding="16dp"
+    tools:context="com.example.abaco_digital.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/Contador"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="414dp"
+        android:text="Contador"
+        tools:ignore="HardcodedText"
+        tools:layout_editor_absoluteX="true"
+        tools:layout_editor_absoluteY="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="174dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="438dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="166dp"
+        android:onClick="sumar"
+        android:text="Sumar"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

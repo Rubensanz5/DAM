@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">cuestionariouno</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="librer_a_de_navegaci_n">Librería de navegación</string>
+    <string name="librer_a_de_dise_o">Librería de diseño</string>
+    <string name="qu_librer_a_estamos_trabajando">¿Qué librería estamos trabajando?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="titulo_cuestionario">titulo_cuestionario</string>
+    <string name="librer_a_de_menus">Librería de menus</string>
+    <string name="librer_as_de_navegaci_n_y_menus">Librerías de navegación y menus</string>
+    <string name="has_fallado_el_cuestionario">Has fallado el cuestionario</string>
+    <string name="pulsa_para_volver_al_inicio">Pulsa para volver al inicio</string>
+    <string name="estudia_mas_has_fallado">Estudia mas, Has fallado</string>
+    <string name="volver_al_inicio">Volver al Inicio</string>
+</resources>

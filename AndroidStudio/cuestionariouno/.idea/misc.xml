@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/layout/fragment_acercade.xml" value="0.223731884057971" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/layout/fragment_contacto.xml" value="0.27447916666666666" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/layout/fragment_cuestionario.xml" value="0.176" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/layout/fragment_final_errores.xml" value="0.2" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/layout/fragment_final_perfecto.xml" value="0.223731884057971" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/layout/fragment_inicio.xml" value="0.223731884057971" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/layout/menu1.xml" value="0.22916666666666666" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/menu/compartir.xml" value="0.264" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/menu/menu1.xml" value="0.27447916666666666" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/menu/navdrawable_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Proyectos/AndroidStudio/cuestionariouno/app/src/main/res/mipmap-anydpi-v26/ic_banner.xml" value="0.290625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

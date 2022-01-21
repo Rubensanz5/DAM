@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modificar">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backNight">
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Modificar empleado"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.038" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.452">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/textoBlanco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID" />
+
+            <EditText
+                android:id="@+id/editTextIdInModificar"
+                style="@style/textoBlanco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ems="10"
+                android:hint="ID"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="@color/verdeSelec"
+                android:textColorHint="#65656565" />
+
+            <Button
+                android:id="@+id/botonBuscarInModificar"
+                style="@style/botonVerde"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Buscar" />
+
+            <TextView
+                android:id="@+id/texApellido"
+                style="@style/textoBlanco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="Apellido" />
+
+            <EditText
+                android:id="@+id/editTextApellidoInModificar"
+                style="@style/textoBlanco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="auto"
+                android:hint="Apellido"
+                android:inputType="text"
+                android:paddingBottom="15dp"
+                android:textColor="@color/verdeSelec"
+                android:textColorHint="#65656565" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/textoBlanco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="Departamento" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                style="@style/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/backNight"
+                android:clickable="false"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:minHeight="48dp"
+                android:scrollbarStyle="outsideInset"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/textoBlanco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:paddingTop="15dp"
+                android:text="Salario" />
+
+            <EditText
+                android:id="@+id/editTextSalarioInModificar"
+                style="@style/textoBlanco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="auto"
+                android:hint="Salario"
+                android:inputType="numberDecimal"
+                android:paddingBottom="15dp"
+                android:textColor="@color/verdeSelec"
+                android:textColorHint="#65656565" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/botonModificarInModificar"
+            style="@style/botonVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:text="Modificar"
+            app:layout_constraintBottom_toTopOf="@+id/botonVolverInModificar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+            app:layout_constraintVertical_bias="0.697" />
+
+        <Button
+            android:id="@+id/botonVolverInModificar"
+            style="@style/botonRojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:text="volver"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

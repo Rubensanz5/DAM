@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">mirestaurante</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="men_comidas">Menú Comidas</string>
+    <string name="huerta_santa_rosalia_n_n_tomate_natural_con_ali_o_de_albahaca_n_esparragos_trigueros_salteados_n_crema_de_calabac_n_n_pastel_de_puerro_con_crujiente_de_espinacas_n_guisantes_l_grima_con_huevo_poch_de_perdiz_n_berenjena_en_escabeche_n_pimientos_asados_n_n_a_la_brasa_o_plancha_n_npicanha_de_wagyu_63_n_sobrecostilla_de_wagyu_63_n_solomillo_de_wagyu_65_n_chulet_n_de_wagyu_800_g_75_n_para_2_personas_n_chulet_n_de_wagyu_1_300_kg_80_pers_n_para_3_personas_n">HUERTA SANTA ROSALIA \n\n TOMATE NATURAL CON ALIÑO DE ALBAHACA \n ESPARRAGOS TRIGUEROS SALTEADOS \n CREMA DE CALABACÍN \n PASTEL DE PUERRO CON CRUJIENTE DE ESPINACAS \n GUISANTES LÁGRIMA CON HUEVO POCHÉ DE PERDIZ \n BERENJENA EN ESCABECHE \n PIMIENTOS ASADOS \n \n A LA BRASA O PLANCHA \n \nPICANHA DE WAGYU (63 €)\n SOBRECOSTILLA DE WAGYU (63 €) \n SOLOMILLO DE WAGYU (65 €) \n CHULETÓN DE WAGYU 800 G. (75€) \n Para 2 personas \n CHULETÓN DE WAGYU 1.300 KG. (80 €/Pers.) \n Para 3 personas \n</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="nombre">Nombre</string>
+    <string name="men_cenas">Menú Cenas</string>
+    <string name="tomates_n_variedad_de_tomates_ecol_gicos_con_helado_de_albahaca_n_su_aceite_y_cosas_de_queso_n_n_tartar_de_at_n_rojo_n_at_n_rojo_de_atmella_de_mar_en_tartar_con_soja_s_samo_y_mahonesa_n_de_c_tricos_n_arroz_de_pato_del_delta_n_arroz_cremoso_del_delta_con_pato_de_cuello_verde_y_texturas_n_de_alcachofa_n_pescado_de_lonja_n_seg_n_capturas_ofrecidas_por_servicio_con_doble_de_espinacas_n_a_la_catalan">Tomates \n Variedad de tomates ecológicos con helado de albahaca, \n su aceite y cosas de queso \n\n Tartar de Atún Rojo \n Atún Rojo de Atmella de Mar en tartar con soja, sésamo y mahonesa \n de cítricos \n Arroz de Pato del Delta \n Arroz cremoso del Delta con pato de cuello verde y texturas \n de alcachofa \n Pescado de Lonja \n Según capturas ofrecidas por servicio con doble de espinacas \n a la catalan</string>
+</resources>

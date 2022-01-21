@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacion"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.mirestaurante.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_cenasFragment"
+            app:destination="@id/cenasFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_comidasFragment"
+            app:destination="@id/comidasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cenasFragment"
+        android:name="com.example.mirestaurante.CenasFragment"
+        android:label="fragment_cenas"
+        tools:layout="@layout/fragment_cenas" >
+        <action
+            android:id="@+id/action_cenasFragment_to_finalFragment"
+            app:destination="@id/finalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comidasFragment"
+        android:name="com.example.mirestaurante.ComidasFragment"
+        android:label="fragment_comidas"
+        tools:layout="@layout/fragment_comidas" >
+        <action
+            android:id="@+id/action_comidasFragment_to_finalFragment"
+            app:destination="@id/finalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/finalFragment"
+        android:name="com.example.mirestaurante.FinalFragment"
+        android:label="fragment_final"
+        tools:layout="@layout/fragment_final" >
+        <argument
+            android:name="Nombre"
+            app:argType="string" />
+        <argument
+            android:name="precio"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/quienesSomosFragment"
+        android:name="com.example.mirestaurante.QuienesSomosFragment"
+        android:label="fragment_quienes_somos"
+        tools:layout="@layout/fragment_quienes_somos" />
+    <fragment
+        android:id="@+id/valoracionFragment"
+        android:name="com.example.mirestaurante.ValoracionFragment"
+        android:label="fragment_valoracion"
+        tools:layout="@layout/fragment_valoracion" />
+</navigation>

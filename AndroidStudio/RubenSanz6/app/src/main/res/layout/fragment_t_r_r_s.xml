@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen9"
+    tools:context=".TRRSFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/styleBoton"
+        android:layout_width="365dp"
+        android:layout_height="63dp"
+        android:text="Volver al catalogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="275dp"
+        android:layout_height="159dp"
+        android:background="#D2000000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337">
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/styleTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="PESO  66 Kg" />
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/styleTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="PRECIO  6.799 €€" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/styleTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="CILINDRADA 248 cc" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/styleTexto"
+            android:layout_width="261dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
+            android:text="CAMBIO 5 marchas" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/styleTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D2000000"
+        android:backgroundTint="#000000"
+        android:text="Caracteristicas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <TextView
+        android:id="@+id/titulo5"
+        style="@style/styleTexto"
+        android:layout_width="397dp"
+        android:layout_height="149dp"
+        android:background="#D2000000"
+        android:backgroundTint="#000000"
+        android:text="TRRS ONE R/RR 250"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="338dp"
+        android:layout_height="228dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="17dp"
+        android:background="#D2000000"
+        android:src="@drawable/imagen10"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

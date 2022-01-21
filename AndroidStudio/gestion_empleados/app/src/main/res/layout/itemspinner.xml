@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/brand_main"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="50dp"
+    android:background="@color/backNight"
+    android:fontFamily="@font/michroma"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:singleLine="true"
+    android:text="At res"
+    android:textColor="@color/verdeSelec"
+    android:textSize="14dp" />

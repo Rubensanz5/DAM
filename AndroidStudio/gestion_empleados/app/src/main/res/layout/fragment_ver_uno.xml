@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerUno">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backNight">
+
+        <Button
+            android:id="@+id/botonVolverInVerUno"
+            style="@style/botonRojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:text="Volver"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewEmpleado"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/cuadro_informacion"
+            android:fontFamily="@font/michroma"
+            android:gravity="center_horizontal"
+            android:paddingStart="10dp"
+            android:paddingTop="40dp"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/botonVolverInVerUno"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.336" />
+
+        <Button
+            android:id="@+id/botonAnterior"
+            style="@style/botonVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="57dp"
+            android:text="anterior"
+            app:layout_constraintEnd_toStartOf="@+id/botonSiguiente"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmpleado" />
+
+        <Button
+            android:id="@+id/botonSiguiente"
+            style="@style/botonVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="siguiente"
+            app:layout_constraintBaseline_toBaselineOf="@+id/botonAnterior"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/botonAnterior" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
