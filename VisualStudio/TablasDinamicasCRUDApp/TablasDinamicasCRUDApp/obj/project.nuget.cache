@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UtUirIbzOBkei3rFgj+RazRIb1bQR4cfHtomc4urtBI7oiFo/m1My+3Zl9nw3m+s//r7lF5LJeb5hV9hnyw4tA==",
+  "success": true,
+  "projectFilePath": "E:\\Proyectos\\VisualStudio\\TablasDinamicasCRUDApp\\TablasDinamicasCRUDApp\\TablasDinamicasCRUDApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ruben-PC\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
+    "C:\\Users\\Ruben-PC\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

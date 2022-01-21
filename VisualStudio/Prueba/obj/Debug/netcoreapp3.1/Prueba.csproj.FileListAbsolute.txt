@@ -1,0 +1,14 @@
+E:\Proyectos\VisualStudio\Prueba\bin\Debug\netcoreapp3.1\Prueba.exe
+E:\Proyectos\VisualStudio\Prueba\bin\Debug\netcoreapp3.1\Prueba.deps.json
+E:\Proyectos\VisualStudio\Prueba\bin\Debug\netcoreapp3.1\Prueba.runtimeconfig.json
+E:\Proyectos\VisualStudio\Prueba\bin\Debug\netcoreapp3.1\Prueba.runtimeconfig.dev.json
+E:\Proyectos\VisualStudio\Prueba\bin\Debug\netcoreapp3.1\Prueba.dll
+E:\Proyectos\VisualStudio\Prueba\bin\Debug\netcoreapp3.1\Prueba.pdb
+E:\Proyectos\VisualStudio\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.AssemblyReference.cache
+E:\Proyectos\VisualStudio\Prueba\obj\Debug\netcoreapp3.1\Prueba.GeneratedMSBuildEditorConfig.editorconfig
+E:\Proyectos\VisualStudio\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfoInputs.cache
+E:\Proyectos\VisualStudio\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfo.cs
+E:\Proyectos\VisualStudio\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.CoreCompileInputs.cache
+E:\Proyectos\VisualStudio\Prueba\obj\Debug\netcoreapp3.1\Prueba.dll
+E:\Proyectos\VisualStudio\Prueba\obj\Debug\netcoreapp3.1\Prueba.pdb
+E:\Proyectos\VisualStudio\Prueba\obj\Debug\netcoreapp3.1\Prueba.genruntimeconfig.cache
