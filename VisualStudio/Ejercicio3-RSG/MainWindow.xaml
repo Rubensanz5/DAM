@@ -1,0 +1,58 @@
+﻿<Window x:Class="Ejercicio3_RSG.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio3_RSG"
+        mc:Ignorable="d"
+        Title="1ª Evaluación - Ejercicio 3" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="DATOS MATRÍCULA 2º DAM" HorizontalAlignment="Left" Margin="297,0,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="30" Grid.ColumnSpan="2"/>
+        <Label Content="Tratamiento:" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" Grid.Row ="1" Grid.Column="0" Margin="0,0,40,0"/>
+        <Label Content="Nombre:" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" Grid.Row ="2" Grid.Column="0" Margin="0,0,40,0"/>
+        <Label Content="Primer Apellido:" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" Grid.Row ="3" Grid.Column="0" Margin="0,0,40,0"/>
+        <Label Content="Segundo Apellido:" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" FontSize="20" Grid.Row ="4" Grid.Column="0" Margin="0,0,40,0"/>
+        <ComboBox x:Name="cbTratamiento" Grid.Column="1" HorizontalAlignment="Left" Margin="5,5,5,5" Grid.Row="1" VerticalAlignment="Center" Width="485" FontSize="20">
+            <ComboBoxItem>
+                <TextBlock>Alumno</TextBlock>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <TextBlock>Alumna</TextBlock>
+            </ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="tbNombre" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="480" FontSize="20"/>
+        <TextBox x:Name="tb1Apellido" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="480" FontSize="20"/>
+        <TextBox x:Name="tb2Apellido" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="4" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="480" FontSize="20"/>
+        <Label Content="Módulos Matriculados" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="25" Grid.Row ="5" Grid.Column="0" Margin="10,10,10,10"/>
+        <CheckBox x:Name="chAD" Content="Acceso a Datos" HorizontalAlignment="Left" Margin="20.5,20.5,20.5,20.5" Grid.Row="6" Grid.Column="0" VerticalAlignment="Center" FontSize="20" VerticalContentAlignment="Center"/>
+        <CheckBox x:Name="chSGE" Content="Sistemas de Gestión Empresarial" HorizontalAlignment="Left" Margin="20.5,20.5,20.5,20.5" Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" FontSize="20" VerticalContentAlignment="Center"/>
+        <CheckBox x:Name="chPSP" Content="Programación de Servicios y Procesos" HorizontalAlignment="Left" Margin="20.5,20.5,20.5,20.5" Grid.Row="8" Grid.Column="0" VerticalAlignment="Center" FontSize="20" VerticalContentAlignment="Center"/>
+        <CheckBox x:Name="chDI" Content="Desarrollo de Interfaces" HorizontalAlignment="Left" Margin="20.5,20.5,20.5,20.5" Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" FontSize="20" VerticalContentAlignment="Center"/>
+        <CheckBox x:Name="chEIE" Content="Empresa e Iniciativa Emprendedora" HorizontalAlignment="Left" Margin="20.5,20.5,20.5,20.5" Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" FontSize="20" VerticalContentAlignment="Center"/>
+        <CheckBox x:Name="chPMDM" Content="Programación Multimedia y Dispositivos Móviles" HorizontalAlignment="Left" Margin="20.5,20.5,20.5,20.5" Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" FontSize="20" VerticalContentAlignment="Center"/>
+        <Button Content="Verificar" HorizontalAlignment="Right" Margin="5,5,20,5" Grid.Row="9" Grid.Column="0" VerticalAlignment="Center" FontSize="20" Width="150" Click="verificar"/>
+        <Button Content="Salir" HorizontalAlignment="Right" Margin="5,5,20,5" Grid.Row="9" Grid.Column="1" VerticalAlignment="Center" FontSize="20" Width="150" Click="salir"/>
+
+
+
+
+    </Grid>
+</Window>

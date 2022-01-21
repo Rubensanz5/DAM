@@ -1,0 +1,14 @@
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\bin\Debug\netcoreapp3.1\EjercicioOpc3.exe
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\bin\Debug\netcoreapp3.1\EjercicioOpc3.deps.json
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\bin\Debug\netcoreapp3.1\EjercicioOpc3.runtimeconfig.json
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\bin\Debug\netcoreapp3.1\EjercicioOpc3.runtimeconfig.dev.json
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\bin\Debug\netcoreapp3.1\EjercicioOpc3.dll
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\bin\Debug\netcoreapp3.1\EjercicioOpc3.pdb
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\obj\Debug\netcoreapp3.1\EjercicioOpc3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\obj\Debug\netcoreapp3.1\EjercicioOpc3.AssemblyInfoInputs.cache
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\obj\Debug\netcoreapp3.1\EjercicioOpc3.AssemblyInfo.cs
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\obj\Debug\netcoreapp3.1\EjercicioOpc3.csproj.CoreCompileInputs.cache
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\obj\Debug\netcoreapp3.1\EjercicioOpc3.dll
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\obj\Debug\netcoreapp3.1\EjercicioOpc3.pdb
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\obj\Debug\netcoreapp3.1\EjercicioOpc3.genruntimeconfig.cache
+C:\Users\Ruben-PC\source\repos\EjercicioOpc3\obj\Debug\netcoreapp3.1\EjercicioOpc3.csproj.AssemblyReference.cache

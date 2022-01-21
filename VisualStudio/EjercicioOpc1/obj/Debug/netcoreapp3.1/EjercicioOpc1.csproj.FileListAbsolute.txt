@@ -1,0 +1,14 @@
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\bin\Debug\netcoreapp3.1\EjercicioOpc1.exe
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\bin\Debug\netcoreapp3.1\EjercicioOpc1.deps.json
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\bin\Debug\netcoreapp3.1\EjercicioOpc1.runtimeconfig.json
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\bin\Debug\netcoreapp3.1\EjercicioOpc1.runtimeconfig.dev.json
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\bin\Debug\netcoreapp3.1\EjercicioOpc1.dll
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\bin\Debug\netcoreapp3.1\EjercicioOpc1.pdb
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\obj\Debug\netcoreapp3.1\EjercicioOpc1.csproj.AssemblyReference.cache
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\obj\Debug\netcoreapp3.1\EjercicioOpc1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\obj\Debug\netcoreapp3.1\EjercicioOpc1.AssemblyInfoInputs.cache
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\obj\Debug\netcoreapp3.1\EjercicioOpc1.AssemblyInfo.cs
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\obj\Debug\netcoreapp3.1\EjercicioOpc1.csproj.CoreCompileInputs.cache
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\obj\Debug\netcoreapp3.1\EjercicioOpc1.dll
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\obj\Debug\netcoreapp3.1\EjercicioOpc1.pdb
+C:\Users\Ruben-PC\source\repos\EjercicioOpc1\obj\Debug\netcoreapp3.1\EjercicioOpc1.genruntimeconfig.cache

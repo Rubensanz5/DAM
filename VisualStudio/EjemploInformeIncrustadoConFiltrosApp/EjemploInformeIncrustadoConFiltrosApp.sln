@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploInformeIncrustadoConFiltrosApp", "EjemploInformeIncrustadoConFiltrosApp\EjemploInformeIncrustadoConFiltrosApp.csproj", "{B6CF61E4-695C-47C9-B2EA-56281069BDA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6CF61E4-695C-47C9-B2EA-56281069BDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6CF61E4-695C-47C9-B2EA-56281069BDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6CF61E4-695C-47C9-B2EA-56281069BDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6CF61E4-695C-47C9-B2EA-56281069BDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50AED0A7-08E1-48DF-A51D-EA418B64D5EC}
+	EndGlobalSection
+EndGlobal
