@@ -1,0 +1,23 @@
+<Alumnos>
+  <Alumno>
+    <nombre>Pedro</nombre>
+    <apellido1>Perez</apellido1>
+    <apellido2>Fernandez</apellido2>
+    <edad>26</edad>
+    <nMatricula>45642</nMatricula>
+  </Alumno>
+  <Alumno>
+    <nombre>Maria</nombre>
+    <apellido1>Garcia</apellido1>
+    <apellido2>Sanchez</apellido2>
+    <edad>19</edad>
+    <nMatricula>4521</nMatricula>
+  </Alumno>
+  <Alumno>
+    <nombre>Sandra</nombre>
+    <apellido1>Sanz</apellido1>
+    <apellido2>jimenez</apellido2>
+    <edad>22</edad>
+    <nMatricula>547456</nMatricula>
+  </Alumno>
+</Alumnos>

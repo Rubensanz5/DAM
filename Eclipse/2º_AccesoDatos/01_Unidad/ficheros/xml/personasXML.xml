@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Personas>
+	<Persona>
+		<nombre>Pedro</nombre>
+		<apellido>Juez</apellido>
+		<localidad>Burgos</localidad>
+		<edad>25</edad>
+		<email>gmail</email>
+	</Persona>
+	<Persona>
+		<nombre>Pedro</nombre>
+		<apellido>Martinez</apellido>
+		<localidad>Madrid</localidad>
+		<edad>25</edad>
+		<email>pedromartinez@gmail.com</email>
+	</Persona>
+	<Persona>
+		<nombre>Pedro</nombre>
+		<apellido>Barriuso</apellido>
+		<localidad>Burgos</localidad>
+		<edad>65</edad>
+		<email>pedrobarriuso@gmail.com</email>
+	</Persona>
+	<Persona>
+		<nombre>Marta</nombre>
+		<apellido>Peña</apellido>
+		<localidad>Barcelona</localidad>
+		<edad>75</edad>
+		<email>martapeña@hotmail.com</email>
+	</Persona>
+</Personas>

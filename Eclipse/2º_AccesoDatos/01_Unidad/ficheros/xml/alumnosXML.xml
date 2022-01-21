@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Alumnos>
+	<Alumno id="1">
+		<nummat>1</nummat>
+		<apellidos>García Martín</apellidos>
+		<nombre>Pepe</nombre>
+		<ciclo>DAM</ciclo>
+		<curso>2</curso>
+	</Alumno>
+	<Alumno id="2">
+		<nummat>2</nummat>
+		<apellidos>Matute Herrero</apellidos>
+		<nombre>Ana María</nombre>
+		<ciclo>DAM</ciclo>
+		<curso>2</curso>
+	</Alumno>
+	<Alumno id="3">
+		<nummat>3</nummat>
+		<apellidos>Ruiz Zafón</apellidos>
+		<nombre>Carlos</nombre>
+		<ciclo>DAM</ciclo>
+		<curso>1</curso>
+	</Alumno>
+</Alumnos>

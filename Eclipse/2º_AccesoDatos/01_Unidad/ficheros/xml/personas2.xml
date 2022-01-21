@@ -1,0 +1,12 @@
+<persona>
+  <nombre>Ruben</nombre>
+  <apellido>Sanz</apellido>
+  <telefono>
+    <codigo>123</codigo>
+    <numero>123456</numero>
+  </telefono>
+  <fax>
+    <codigo>123</codigo>
+    <numero>999999</numero>
+  </fax>
+</persona>

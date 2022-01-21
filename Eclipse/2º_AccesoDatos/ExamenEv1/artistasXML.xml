@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<artistas>
+	<artista>
+		<nombre>Maroon 5</nombre>
+		<actividad>Cantante</actividad>
+		<trabajos>
+			<trabajo1>Girls like you</trabajo1>
+			<precio1>30</precio1>
+			<trabajo2>Sugar</trabajo2>
+			<precio2>25</precio2>
+		</trabajos>
+	</artista>
+	<artista>
+		<nombre>Malu</nombre>
+		<actividad>Cantante</actividad>
+		<trabajos>
+			<trabajo1>Contradiccion</trabajo1>
+			<precio1>35</precio1>
+			<trabajo2>Quiero</trabajo2>
+			<precio2>15</precio2>
+		</trabajos>
+	</artista>
+</artistas>
